@@ -1,0 +1,137 @@
+*{
+  font-family: Calibri;
+}
+
+.blokai1{width: 8.33%;}
+.blokai2{width: 16.66%;}
+.blokai3{width: 25%;}
+.blokai4{width: 33.33%; }
+.blokai5{width: 41.66%;}
+.blokai6{width: 50%;}
+.blokai7{width: 58.33%;}
+.blokai8{width: 66.66%;}
+.blokai9{width: 75%;}
+.blokai10{width: 83.33%;}
+.blokai11{width: 91.66%;}
+.blokai12{width: 100%;}
+
+[class^="blokai"]{
+  float: left;
+}
+
+.clear{
+  clear:left;
+}
+
+#pamatas{
+  width: 1300px;
+
+}
+
+#pamatas::after{
+  display: block;
+  clear: both;
+  content: " ";
+}
+
+img{
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: center;
+}
+
+.siena-asmenine{
+  box-shadow: 0px 0px 10px 2px grey;
+  background: #3b303b;
+  margin: 5px;
+  height: 1254px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.siena-asmenine::after{
+  display: block;
+  content: " ";
+  clear: both;
+  height: 100%;
+}
+
+.siena-pagrindine{
+  width: 100%;
+  box-shadow: 0px 0px 10px 2px grey;
+  background: white;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.siena-pagrindine::after {
+  display: block;
+  content: " ";
+  clear: both;
+  height: 100%;
+}
+
+
+.siena-pagrindine-mini{
+  padding: 3px;
+  color:#454545;
+}
+
+.siena-asmenine-mini{
+  padding: 3px;
+  color:white;
+  vertical-align: center;
+}
+
+[class^='siena-'] p{
+  line-height: 1.5em;
+  font-size: 14pt;
+  margin: 5px;
+}
+
+[class^='siena-pagrindine'] h1,
+[class^='siena-pagrindine'] h2,
+[class^='siena-pagrindine'] h3,
+[class^='siena-pagrindine'] h4,
+[class^='siena-pagrindine'] h5
+[class^='siena-pagrindine'] h6{
+  margin: 5px;
+  color: #454545;
+}
+
+h2.datos{
+  color:#60245e;
+
+}
+
+[class^='siena-asmenine'] h1,
+[class^='siena-asmenine'] h2,
+[class^='siena-asmenine'] h3,
+[class^='siena-asmenine'] h4,
+[class^='siena-asmenine'] h5
+[class^='siena-asmenine'] h6{
+  margin: 5px;
+}
+
+.box-asmenine-mini p span{
+  font-size: 10pt;
+}
+#hi {
+  text-align: center;
+  padding: 10px;
+  text-decoration-line;
+  font-size: 35px;
+  font-family: pasajero;
+}
+#viens, #mob, #pastas, #adresas {
+  padding-top: 10px;
+}
+.siena-asmenine-mini {
+  box-sizing: border-box;
+  height: 70px;
+}
+#mru {
+  color: #60245e;
+}
